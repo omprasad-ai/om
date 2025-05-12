@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Omprasad A K</span></h1>
+      <p>I'm a Web Developer</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web developer skilled in HTML, CSS, JavaScript, and building modern responsive websites.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+
+      <div class="project-card">
+        <div class="project-box" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0hX-i9lLt_yumPpfriywcfbbL9qdjKGV3g&s');"></div>
+        <h3>Query AI</h3>
+        <p><B>it is a NLP base project used to convert from english language into SQL queries and returns the result.</B></p>
+      </div>
+
+      <div class="project-card">
+        <div class="project-box" style="background-image: url('data:image/png;base64,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');"></div>
+        <h3>Project 2</h3>
+        <p><B>It is a DBMS mini project it is used to handle the data of the collge</B></p>
+      </div>
+
+      
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: omprasadkatkar@example.com</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
