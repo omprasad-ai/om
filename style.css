@@ -1,3 +1,4 @@
+/* General Reset & Typography */
 * {
   margin: 0;
   padding: 0;
@@ -11,120 +12,87 @@ body {
   color: #333;
 }
 
-header {
-  background: #333;
-  padding: 20px 0;
-  color: white;
+/* Navbar Overrides */
+.navbar {
+  padding: 15px 0;
 }
 
-nav {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
+.navbar-brand {
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
+.nav-link {
   transition: color 0.3s ease;
 }
 
-.nav-links li a:hover {
-  color: #00bcd4;
+.nav-link:hover {
+  color: #00bcd4 !important;
 }
 
-.hero {
+/* Hero Section */
+#home {
   background: #00bcd4;
   color: white;
-  text-align: center;
   padding: 80px 20px;
 }
 
-.hero h1 {
+#home h1 {
   font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.hero span {
+#home span {
   color: #fff700;
 }
 
-.skills-set {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  padding: 20px 0;
+/* Section Headings */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-.skills-set li {
+/* Skills Section */
+#skills .badge {
   background-color: #e0e0e0;
+  color: #333;
+  font-size: 1rem;
   padding: 10px 20px;
   border-radius: 20px;
   font-weight: 500;
-  list-style: none;
 }
 
-.about, .skills,.projects, .contact {
-  padding: 60px 20px;
-  text-align: center;
+/* Project Cards */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
 }
 
-.about p, .projects p, .contact p {
-  max-width: 600px;
-  margin: 10px auto;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 30px;
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
 }
 
-.project-card {
-  text-align: center;
-  width: 250px;
+/* Contact Section */
+#contact p {
+  font-size: 1.1rem;
 }
 
-.project-box {
-  width: 100%;
-  height: 150px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.project-card h3 {
-  margin-top: 10px;
-  font-size: 1.2rem;
-}
-
-.project-card p {
-  font-size: 0.95rem;
-  color: #555;
-}
-
+/* Footer */
 footer {
-  text-align: center;
-  padding: 20px;
   background: #333;
   color: white;
+  text-align: center;
+  padding: 20px;
   margin-top: 40px;
+}
+ h1
+{
+  color:  #00bcd4;
 }
