@@ -7,12 +7,30 @@
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- Carousel Section -->
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x500/?coding" class="d-block w-100" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x500/?technology" class="d-block w-100" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x500/?software" class="d-block w-100" alt="Slide 3">
+      </div>
+    </div>
+    <!-- Carousel Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -68,29 +86,26 @@
     <div class="container">
       <h2 class="mb-4 text-center">Projects</h2>
       <div class="row g-4">
-
         <!-- Project 1 -->
         <div class="col-md-6">
           <div class="card h-100">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0hX-i9lLt_yumPpfriywcfbbL9qdjKGV3g&s" class="card-img-top" alt="Query AI project image">
             <div class="card-body">
               <h5 class="card-title">Query AI</h5>
-              <p class="card-text"><b>It is an NLP-based project used to convert English into SQL queries and return the result.</b></p>
+              <p class="card-text"><b>An NLP-based project that converts English into SQL queries and returns the result.</b></p>
             </div>
           </div>
         </div>
-
         <!-- Project 2 -->
         <div class="col-md-6">
           <div class="card h-100">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABO1BMVEUAAAD///9hYWFlZWXr6+ulpaVBQUH19fXCwsL7+/vNzc3KysrR0dHHx8fl5eUODg5YWFiNjY8fHx+ysrKZmZm4uLhISEgaGhp5eXlTU1MpKSmGhoZOTk6+vsCenqCSkpQ1NTVtbW2BgYHZ2ds8PDwtmMWrq6suvdgDDQ8vttYurdEto8kFEBYsjr4thbsuLi4tfLYkRIYHDBoHGx8MNDsPP0cGFRcWW2cnoLYxyOUefY4eeowoo7oUUV0ba3wjh50SSFMRN0kQMUUYTmclcZscWX0pfqsAHzESGiEom7kYTm8nkrEwtdsfcYkhg6EQOEUiLjMaXHMlf6Evoc0eaotPkbUYaJUoeKkAKUYbUXMAHTcAEB8UNU8sdLALSHMAOmQqZqMdRHAsaK0hS4IoVpkYNl8eO3EVJ04OFzTB1PvgAAAIyklEQVR4nO2cCVfbxhaAR7ZkyViLZUnGmyTbAgEGG0qWR5pmoQnQAE1eQkvSAK+UrP//F/Te0YIBc8hLjJVw7ncOkmZlvhnNSDYSjBEEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRDEZLh1+86dW99ayd0x1HFt..." class="card-img-top" alt="Auxlirium project image">
+            <img src="https://source.unsplash.com/600x400/?database" class="card-img-top" alt="Auxlirium project image">
             <div class="card-body">
               <h5 class="card-title">Auxlirium</h5>
-              <p class="card-text"><b>It is a DBMS mini project used to handle the data of the college.</b></p>
+              <p class="card-text"><b>A DBMS mini project used to handle the data of the college efficiently.</b></p>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -108,38 +123,8 @@
   <footer class="bg-dark text-light text-center py-3">
     <p>&copy; 2025 Omprasad A K. All rights reserved.</p>
   </footer>
-  <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>John</td>
-      <td>Doe</td>
-      <td>@social</td>
-    </tr>
-  </tbody>
-</table>
 
-  <!-- Bootstrap JS -->
+  <!-- Bootstrap JS Bundle (includes Popper) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
