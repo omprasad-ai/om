@@ -96,3 +96,8 @@ footer {
 {
   color:  #00bcd4;
 }
+
+.lead .container p
+{
+  color: rgb(17, 176, 154);
+}
