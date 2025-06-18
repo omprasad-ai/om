@@ -24,12 +24,6 @@
   border-top-right-radius: .5rem;
 }
 
-/* Footer */
 footer {
   font-size: 0.9rem;
-}
-
-/* Progress Bars */
-.progress-bar {
-  font-weight: 500;
 }

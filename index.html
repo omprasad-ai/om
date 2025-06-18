@@ -3,59 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Omprasad's Portfolio</title>
+  <title>Omprasad Katkar Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <style>
-    .hero {
-      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-      padding: 100px 0;
-    }
-
-    .highlight {
-      color: #00bcd4;
-      font-weight: bold;
-    }
-
-    .section-title {
-      font-size: 2.2rem;
-      font-weight: 600;
-    }
-
-    .project-box {
-      height: 200px;
-      background-size: cover;
-      background-position: center;
-      border-top-left-radius: .5rem;
-      border-top-right-radius: .5rem;
-    }
-
-    footer {
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header Navbar -->
+<!-- Navbar -->
 <nav class="navbar navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Omprasad A K</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+    <a class="navbar-brand" href="#">Omprasad Katkar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar">
+    <div class="offcanvas offcanvas-end text-bg-dark" id="navMenu">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title">Navigation</h5>
+        <h5 class="offcanvas-title">Menu</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#internships">Internships</a></li>
-          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -63,11 +36,11 @@
   </div>
 </nav>
 
-<!-- Hero Section -->
+<!-- Hero -->
 <section id="home" class="hero text-white text-center">
   <div class="container">
-    <h1>Hello, I’m <span class="highlight">Omprasad A K</span></h1>
-    <p>A Passionate Web Developer</p>
+    <h1>Hello, I'm <span class="highlight">Omprasad Katkar</span></h1>
+    <p>Aspiring Full-Stack Developer</p>
   </div>
 </section>
 
@@ -75,7 +48,7 @@
 <section id="about" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title mb-3">About Me</h2>
-    <p class="mx-auto" style="max-width: 600px;">I am a web developer with a passion for building responsive and engaging websites. I specialize in front-end development and am currently learning full-stack Java development.</p>
+    <p class="mx-auto" style="max-width: 700px;">A motivated software developer passionate about building scalable web apps and learning cutting-edge AI/ML tech. I aim to apply my problem-solving skills in real-world projects that have impact.</p>
   </div>
 </section>
 
@@ -85,56 +58,54 @@
     <h2 class="section-title mb-4">Skills</h2>
     <div class="row justify-content-center">
       <div class="col-md-6 text-start">
-
-        <p>HTML <span class="float-end">90%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-success" style="width: 90%">90%</div></div>
-
-        <p>CSS <span class="float-end">85%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-info" style="width: 85%">85%</div></div>
-
-        <p>JavaScript <span class="float-end">75%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-warning" style="width: 75%">75%</div></div>
-
-        <p>Bootstrap <span class="float-end">80%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-primary" style="width: 80%">80%</div></div>
-
-        <p>Java <span class="float-end">70%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-danger" style="width: 70%">70%</div></div>
-
-        <p>MySQL <span class="float-end">65%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-secondary" style="width: 65%">65%</div></div>
-
-        <p>JDBC<span class="float-end">75%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-danger" style="width: 75%">75%</div></div>
-
-        <p>Servlet <span class="float-end">70%</span></p>
-        <div class="progress mb-3"><div class="progress-bar bg-primary" style="width: 70%">70%</div></div>
+        <p>HTML <span class="float-end">90%</span></p><div class="progress mb-3"><div class="progress-bar bg-success" style="width:90%"></div></div>
+        <p>CSS <span class="float-end">85%</span></p><div class="progress mb-3"><div class="progress-bar bg-info" style="width:85%"></div></div>
+        <p>JavaScript <span class="float-end">75%</span></p><div class="progress mb-3"><div class="progress-bar bg-warning" style="width:75%"></div></div>
+        <p>Java <span class="float-end">70%</span></p><div class="progress mb-3"><div class="progress-bar bg-danger" style="width:70%"></div></div>
+        <p>MySQL <span class="float-end">65%</span></p><div class="progress mb-3"><div class="progress-bar bg-secondary" style="width:65%"></div></div>
+        <p>JDBC, Servlets, Bootstrap</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Internships -->
-<section id="internships" class="py-5 text-center bg-white">
+<!-- Experience -->
+<section id="experience" class="py-5 text-center">
   <div class="container">
-    <h2 class="section-title mb-4">Internships</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-8 text-start">
-        <div class="mb-4">
-          <h5><strong>Dhee Coding Lab – Java Full Stack Intern</strong></h5>
-          <p><em>Feb 2025 – Present</em></p>
-          <ul>
-            <li>Trained in Java Full Stack technologies including Core Java, JDBC, Servlets, JSP, MySQL, and Spring Boot.</li>
-            <li>Built multiple web applications and enhanced frontend and backend integration.</li>
-          </ul>
+    <h2 class="section-title mb-4">Internships & Experience</h2>
+    <div class="text-start mx-auto" style="max-width: 800px;">
+      <h5><strong>Dhee Coding Lab, Bengaluru</strong> <small>(Nov 2024 – Present)</small></h5>
+      <p>SDE Intern – Trained in Java Full-Stack Web Development. Built responsive UI using Bootstrap.</p>
+
+      <h5><strong>IT JOBXS (Desi QnA), Remote</strong> <small>(May 2024 – Oct 2024)</small></h5>
+      <p>Frontend Developer – Built responsive frontend for a Q&A platform using HTML, CSS, JavaScript.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="section-title mb-4">Projects</h2>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="project-box" style="background-image:url('https://via.placeholder.com/300x200');"></div>
+          <div class="card-body">
+            <h5 class="card-title">Query-AI</h5>
+            <p class="card-text">Natural language to SQL using Gemini AI, Flask, MySQL, and Chart.js</p>
+            <a href="https://github.com/omprasad-ai/Query-AI">Github</a>
+          </div>
         </div>
-        <div class="mb-4">
-          <h5><strong>Desi QnA (Frontend Developer)</strong></h5>
-          <p><em>Project-Based</em></p>
-          <ul>
-            <li>Developed a fully responsive frontend section for a Q&A website.</li>
-            <li>Integrated Google reCAPTCHA and focused on UI/UX enhancement.</li>
-          </ul>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="project-box" style="background-image:url('https://via.placeholder.com/300x200/00bcd4');"></div>
+          <div class="card-body">
+            <h5 class="card-title">Auxlirium</h5>
+            <p class="card-text">College DBMS with Flask, CRUD, Python, MySQL</p>
+            <a href="">Github</a>
+          </div>
         </div>
       </div>
     </div>
@@ -142,92 +113,41 @@
 </section>
 
 <!-- Education -->
-<section id="education" class="py-5 bg-light text-center">
+<section id="education" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title mb-4">Education</h2>
-    <div class="row justify-content-center">
-      <div class="col-md-8 text-start">
-        <div class="mb-3">
-          <h5><strong>Bachelor of Artificial Inelligence and Machine Learning</strong></h5>
-          <p><em>Impact College of Engineering and Applied Sciences, VTU University</em> — 2021–2025</p>
-        </div>
-        <div class="mb-3">
-          <h5><strong> (12th Grade)</strong></h5>
-          <p><em>Hymashu PU College</em> — 2019–2021</p>
-        </div>
-        <div class="mb-3">
-          <h5><strong> (10th Grade)</strong></h5>
-          <p><em>BES School</em> — 2018–2019</p>
-        </div>
-      </div>
+    <div class="text-start mx-auto" style="max-width: 800px;">
+      <h5><strong>Impact College of Engineering, Bengaluru</strong></h5>
+      <p>B.E. in AI & ML – GPA: 8.0 <small>(Dec 2021 – May 2025)</small></p>
+      <h5><strong>Hymamshu Jyothi Kala Peetha PU College</strong></h5>
+      <p>Senior Secondary (Class 12) – 84.9%</p>
+      <h5><strong>Bangalore Education Society</strong></h5>
+      <p>Secondary HighSchool (Class 12) – 86.6%</p>
     </div>
   </div>
 </section>
 
-<!-- Projects Carousel -->
-<section id="projects" class="py-5 text-center">
-  <div class="container">
-    <h2 class="section-title mb-4">Projects</h2>
+<!-- Achievements -->
 
-    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <div class="carousel-item active">
-          <div class="card mx-auto" style="width: 18rem;">
-            <div class="project-box" style="background-image: url('https://via.placeholder.com/300x200');"></div>
-            <div class="card-body">
-              <h5 class="card-title">Query-AI</h5>
-              <p class="card-text">Natural language to SQL translator using Gemini AI and Flask.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="card mx-auto" style="width: 18rem;">
-            <div class="project-box" style="background-image: url('https://via.placeholder.com/300x200/00bcd4');"></div>
-            <div class="card-body">
-              <h5 class="card-title">Auxlirium</h5>
-              <p class="card-text">College database management system with Java and MySQL.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <div class="card mx-auto" style="width: 18rem;">
-            <div class="project-box" style="background-image: url('https://via.placeholder.com/300x200/888');"></div>
-            <div class="card-body">
-              <h5 class="card-title">EatFit Blog</h5>
-              <p class="card-text">Blog site promoting healthy eating habits using Bootstrap.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-  </div>
-</section>
 
 <!-- Contact -->
-<section id="contact" class="py-5 bg-light text-center">
+<section id="contact" class="py-5 text-center">
   <div class="container">
     <h2 class="section-title mb-3">Contact Me</h2>
-    <p>You can reach me at <a href="mailto:omprasadkatkar@gmail.com">omprasadkatkar@gmail.com</a></p>
+    <p>Email: <a href="mailto:omprasadkatkar@gmail.com">omprasadkatkar@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/omprasad-katkar-572170243" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/omprasad-ai" target="_blank">GitHub</a> |
+      <a href="https://leetcode.com/Omprasad_a_k/" target="_blank">LeetCode</a>
+    </p>
   </div>
 </section>
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">&copy; 2025 Omprasad A K. All rights reserved.</p>
+  <p class="mb-0">&copy; 2025 Omprasad Katkar. All rights reserved.</p>
 </footer>
 
-<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
